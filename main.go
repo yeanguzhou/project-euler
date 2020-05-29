@@ -1,9 +1,10 @@
 package main
 
 import (
-    "project-euler/euler"
-    "time"
     "fmt"
+    "time"
+
+    "github.com/yeanguzhou/project-euler/euler"
 )
 
 func main()  {
