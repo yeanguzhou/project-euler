@@ -10,9 +10,8 @@ import (
 func main()  {
     t0 := time.Now()
 
-    euler.LongestCollatzSequence()
+    euler.LatticePaths()
 
     t1 := time.Since(t0)
-    fmt.Println()
-    fmt.Printf("程序总耗时%s.", t1)
+    fmt.Printf("\n程序总耗时%s.", t1)
 }
